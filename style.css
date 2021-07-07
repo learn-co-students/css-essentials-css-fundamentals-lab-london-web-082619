@@ -3,3 +3,78 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Update the header**: the text is a little wonky being aligned on
+the left like that. Provide a property that aligns it in the center
+instead*/
+h1 {
+  color: black;
+  text-align: center;
+}
+/*- **Center our image**: We only have one image on the page and we would
+like it centered!*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*- **Jazz up our navigation links**: Let's center all of our nav links
+as well. Give all of the `<a>` tags within our navbar padding of 10px
+on their left and right sides. In addition, change their background
+color to something of your choosing. We chose grey!*/
+
+nav {
+  text-align: center;;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #D1E2E8;
+}
+
+/*- **Our image caption needs work**: Let's shrink that font size down
+and make sure it is centered.*/
+figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+/*- **Update the text block**: Wouldn't it look nicer if our text was
+centered as well? Our image is about 900px wide, so let's give all our
+`<p>` within `#featured-property` a hard width of 800px and center the
+text in there.*/
+
+#featured-property {
+  text-align: center;
+}
+
+
+#featured-property p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/*- **Make our `#details` section horizontal**: The details section could
+go nicely as a footer to the page, instead of a vertical list. Change
+its `display` value to block and make sure each of the `<div>`s is
+`float`ing to the `left`.*/
+
+#details {
+  text-align: center;
+  background: red;
+}
+
+#details div {
+  display: inline-block;
+  text-align: center;
+  /*padding-left: 100px;
+  padding-right: 100px;*/
+  width: 20%
+}
+
+/*- **As a finishing touch**: Let's clean up the `<div>`s at the bottom
+of the page. All of them should have the same background color, centered
+ text, and occupy 25% of the `width` of the bottom row (since we have 4
+    divs).*/
